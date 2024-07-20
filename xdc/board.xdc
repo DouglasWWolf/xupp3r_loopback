@@ -117,6 +117,12 @@ set_property -dict {PACKAGE_PIN BC21  IOSTANDARD LVCMOS18} [ get_ports qsfp_lp[2
 set_property -dict {PACKAGE_PIN BA22  IOSTANDARD LVCMOS18} [ get_ports qsfp_lp[3] ]
 
 
+#set_property -dict {PACKAGE_PIN BD23  IOSTANDARD LVCMOS18} [ get_ports qsfp_present_l[0] ]
+#set_property -dict {PACKAGE_PIN BD21  IOSTANDARD LVCMOS18} [ get_ports qsfp_present_l[1] ]
+#set_property -dict {PACKAGE_PIN BB20  IOSTANDARD LVCMOS18} [ get_ports qsfp_present_l[2] ]
+#set_property -dict {PACKAGE_PIN BB24  IOSTANDARD LVCMOS18} [ get_ports qsfp_present_l[3] ]
+
+
 
 ##############################################
 ##########           LEDs           ##########
